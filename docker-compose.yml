@@ -1,0 +1,6 @@
+﻿services:
+  pkb.api:
+    image: pkb.api
+    build:
+      context: .
+      dockerfile: PKB.API/Dockerfile
